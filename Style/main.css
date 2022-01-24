@@ -1,4 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+aside {
+  width: 200px;
+  height: 100vh;
+  background-color: #15191C;
+  text-align: center;
+  padding-top: 20px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+  color: #95999C;
+}
+
+i {
+  color: #95999C;
+  width: 40px;
+  text-align: center;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: star;
+      -ms-flex-pack: star;
+          justify-content: star;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+li span {
+  width: 8px;
+  height: 48px;
+  background-color: transparent;
+}
+
+li:hover a {
+  color: white;
+}
+
+li:hover i {
+  color: white;
+}
+
+li:hover span {
+  background-color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +74,12 @@
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Open Sans', sans-serif;
 }
 
-body section {
-  padding: 0 150px;
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

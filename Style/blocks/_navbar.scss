@@ -1,0 +1,51 @@
+aside {
+    width: 200px;
+    height: 100vh;
+    background-color: #15191C;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 32px;
+    color: #95999C;
+}
+
+i {
+    color: #95999C;
+    width: 40px;
+    text-align: center;
+}
+
+li {
+    @include display($gap:10px, $justify-content: star)
+}
+
+li span {
+    width: 8px;
+    height: 48px;
+    background-color: transparent;
+}
+
+li:hover {
+    a {
+    color: white;
+    }
+
+    i {
+        color: white;
+    }
+
+    span {
+        background-color: white;
+    }
+}
+
