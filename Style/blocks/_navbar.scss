@@ -6,6 +6,10 @@ aside {
     padding-top: 20px;
 }
 
+img {
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -26,7 +30,8 @@ i {
 }
 
 li {
-    @include display($gap:10px, $justify-content: star)
+    @include display($gap:10px, $justify-content: star);
+    cursor: pointer;
 }
 
 li span {
