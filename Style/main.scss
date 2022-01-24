@@ -14,6 +14,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #1D232A;
     overflow-x: hidden;
+    user-select: none;
+    
 }
 
 main {
@@ -42,7 +44,7 @@ main {
 }
 
 .section-1 {
-    background: #2C343A;
+    background:#E7CA33;
     border-radius: 16px;
 }
 
